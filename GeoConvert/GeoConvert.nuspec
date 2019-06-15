@@ -2,15 +2,22 @@
 <package >
   <metadata>
     <id>GeoConvert.Mexican_Man</id>
-    <version>1.0.0</version>
+    <version>1.0</version>
     <title>GeoConvert</title>
     <authors>Mexican_Man</authors>
     <owners>Mexican_Man</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Library for conversion from LLA to ENU or ECEF and backwards using WGS84</description>
+    <summary>Library for conversion from LLA to ENU or ECEF and backwards using WGS84</summary>
+	<releaseNotes>First release</releaseNotes>
+	<language>en-US</language>
+	<projectUrl>https://github.com/MexicanMan/GeoConvert</projectUrl>
     <copyright>Copyright 2019</copyright>
     <tags>Geodesy WGS84 ENU ECEF LLA GPS Geography</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\GeoConvert.dll" target="lib\netstandard2.0\GeoConvert.dll" />
+    <file src="bin\Release\netstandard2.0\GeoConvert.xml" target="lib\netstandard2.0\GeoConvert.xml" />
+  </files>
 </package>

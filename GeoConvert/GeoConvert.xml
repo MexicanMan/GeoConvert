@@ -6,7 +6,7 @@
     <members>
         <member name="T:GeoConvert.GeoConvertor">
             <summary>
-            Convert from LLA to ENU and backwards
+            Convert from LLA to ENU and backwards using WGS84
             </summary>
         </member>
         <member name="M:GeoConvert.GeoConvertor.ECEFfromLLA(System.Double,System.Double,System.Double)">
