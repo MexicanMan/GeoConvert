@@ -8,7 +8,7 @@ Git repo: https://github.com/MexicanMan/GeoConvert
 
 Example of use: https://github.com/MexicanMan/GeoConvert/blob/master/Tests/Test.cs
 
-## Namespace
+## Namespaces
 **GeoConvert** - Conversion from LLA to ECEF or ENU and backwards.
 
 **GeoConvert.Matrix** - Matrix inverting for coordinates conversion.
