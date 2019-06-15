@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeoConvert</name>
+    </assembly>
+    <members>
+        <member name="T:GeoConvert.GeoConvertor">
+            <summary>
+            Convert from LLA to ENU and backwards
+            </summary>
+        </member>
+        <member name="M:GeoConvert.GeoConvertor.ECEFfromLLA(System.Double,System.Double,System.Double)">
+            <summary>
+            Convert LLA to ECEF
+            </summary>
+            <param name="lat">Latitude</param>
+            <param name="lon">Longitude</param>
+            <param name="alt">Altitude</param>
+            <returns>ECEF coordinates (x, y, z)</returns>
+        </member>
+        <member name="M:GeoConvert.GeoConvertor.LLAfromECEF(System.Double,System.Double,System.Double)">
+            <summary>
+            Convert ECEF to LLA
+            </summary>
+            <param name="x">X ECEF</param>
+            <param name="y">Y ECEF</param>
+            <param name="z">Z ECEF</param>
+            <returns>LLA coordinates (lat, lon, alt)</returns>
+        </member>
+        <member name="M:GeoConvert.GeoConvertor.ECEFfromENUTransform(System.Double,System.Double,System.Double)">
+            <summary>
+            Create a transformation matrix used for convert from ENU to ECEF
+            </summary>
+            <param name="lat">Latitude of ENU center</param>
+            <param name="lon">Longitude of ENU center</param>
+            <param name="alt">Altitude of ENU center</param>
+            <returns>Transformation matrix</returns>
+        </member>
+        <member name="M:GeoConvert.GeoConvertor.LLAfromENU(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Convert ENU to LLA
+            </summary>
+            <param name="x">East in ENU</param>
+            <param name="y">North in ENU</param>
+            <param name="z">Up in ENU</param>
+            <param name="reflat">Latitude of ENU coordinate system center</param>
+            <param name="reflon">Longitude of ENU coordinate system center</param>
+            <param name="refalt">Altitude of ENU coordinate system center</param>
+            <returns>LLA coordinates of given ENU point</returns>
+        </member>
+        <member name="M:GeoConvert.GeoConvertor.ENUfromLLA(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Convert LLA to ENU
+            </summary>
+            <param name="lat">Latitude</param>
+            <param name="lon">Longitude</param>
+            <param name="alt">Altitude</param>
+            <param name="reflat">Latitude of ENU coordinate system center</param>
+            <param name="reflon">Longitude of ENU coordinate system center</param>
+            <param name="refalt">Altitude of ENU coordinate system center</param>
+            <returns>ENU coordinates of given LLA point</returns>
+        </member>
+        <member name="M:GeoConvert.Matrix.MatrixWorker.Invert(System.Double[0:,0:])">
+            <summary>
+            Calculate the inverse of a matrix using Gauss-Jordan elimination
+            </summary>
+            <param name="matrix">Matrix to invert</param>
+            <returns>Inverted matrix</returns>
+        </member>
+        <member name="M:GeoConvert.Matrix.MatrixWorker.RowSwap(System.Double[0:,0:],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Swap 2 rows in a matrix
+            </summary>
+            <param name="matrix">The matrix to operate on</param>
+            <param name="n">The size of the matrix</param>
+            <param name="r0">First row to swap</param>
+            <param name="r1">Second row to swap</param>
+        </member>
+        <member name="M:GeoConvert.Matrix.MatrixWorker.RowScaleAdd(System.Double[0:,0:],System.Int32,System.Double,System.Int32,System.Int32)">
+            <summary>
+            Perform scale and add a row in a matrix to another row
+            </summary>
+            <param name="matrix">The matrix to operate on</param>
+            <param name="n">The size of the matrix</param>
+            <param name="a">The scale factor to apply to row <paramref name="r0"/></param>
+            <param name="r0">The row to scale</param>
+            <param name="r1">The row to add and store to</param>
+        </member>
+        <member name="M:GeoConvert.Matrix.MatrixWorker.RowScale(System.Double[0:,0:],System.Int32,System.Double,System.Int32)">
+            <summary>
+            Scale a row in a matrix by a constant factor
+            </summary>
+            <param name="matrix">The matrix to operate on</param>
+            <param name="n">The size of the matrix</param>
+            <param name="a">The factor to scale row <paramref name="r"/></param>
+            <param name="r">The row to scale</param>
+        </member>
+    </members>
+</doc>

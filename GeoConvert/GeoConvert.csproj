@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Nick\University\DIPLOMA\GeoConvert\GeoConvert\GeoConvert.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

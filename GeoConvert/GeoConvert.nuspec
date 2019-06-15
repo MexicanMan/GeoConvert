@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GeoConvert.Mexican_Man</id>
+    <version>1.0.0</version>
+    <title>GeoConvert</title>
+    <authors>Mexican_Man</authors>
+    <owners>Mexican_Man</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Geodesy WGS84 ENU ECEF LLA GPS Geography</tags>
+  </metadata>
+</package>

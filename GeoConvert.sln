@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConvert", "GeoConvert\GeoConvert.csproj", "{2ABF86B6-78AD-4635-8604-7DA333843719}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{529FDC30-74CF-417E-B035-36E6992D2F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2ABF86B6-78AD-4635-8604-7DA333843719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ABF86B6-78AD-4635-8604-7DA333843719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ABF86B6-78AD-4635-8604-7DA333843719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529FDC30-74CF-417E-B035-36E6992D2F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529FDC30-74CF-417E-B035-36E6992D2F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529FDC30-74CF-417E-B035-36E6992D2F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529FDC30-74CF-417E-B035-36E6992D2F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
