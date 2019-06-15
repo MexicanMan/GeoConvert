@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConvert", "GeoConvert\GeoConvert.csproj", "{2ABF86B6-78AD-4635-8604-7DA333843719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABF86B6-78AD-4635-8604-7DA333843719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABF86B6-78AD-4635-8604-7DA333843719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABF86B6-78AD-4635-8604-7DA333843719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABF86B6-78AD-4635-8604-7DA333843719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1285ACA-B61E-405F-97D1-17AD777E6C18}
+	EndGlobalSection
+EndGlobal
